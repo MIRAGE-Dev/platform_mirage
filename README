@@ -1,2 +1,16 @@
-$ repo init -u git://github.com/Open-Wise/platform_manifest_slim.git -b jb4.2
-$ repo sync
+Get Repo
+--------
+
+    mkdir ~/bin
+    export PATH=~/bin:$PATH
+    curl https://raw.github.com/franco-c/Repo/master/repo > ~/bin/repo
+    chmod a+x ~/bin/repo
+
+Syncing the Mirage Source
+---------------------------------------
+
+    mkdir ~/slim
+    cd ~/slim
+    repo init -u git://github.com/Open-Wise/platform_manifest_slim.git -b jb4.2
+    repo sync -f -j12
+
