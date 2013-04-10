@@ -1,5 +1,5 @@
-Get Repo
---------
+Setting Repo
+＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊
 
     mkdir ~/bin
     export PATH=~/bin:$PATH
@@ -7,7 +7,7 @@ Get Repo
     chmod a+x ~/bin/repo
 
 Syncing the Mirage Source
----------------------------------------
+＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊
 
     mkdir ~/slim
     cd ~/slim
