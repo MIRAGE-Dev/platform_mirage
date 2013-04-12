@@ -21,7 +21,7 @@
   <remote name="cmdev"
            fetch="git://github.com/loosethisskin/" />
 
-  <default revision="refs/tags/android-4.2.2_r1"
+  <default revision="+/android-4.2.2_r1"
            remote="aosp"
            sync-j="4" />
 
