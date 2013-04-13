@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote name="aosp"
-           fetch="https://android.googlesource.com/"
-           review="https://android-review.googlesource.com/" />
+  <remote  name="aosp"
+           fetch="https://android.googlesource.com/" />
 
   <remote  name="github"
            fetch="git://github.com/"
@@ -21,7 +20,7 @@
   <remote name="cmdev"
            fetch="git://github.com/loosethisskin/" />
 
-  <default revision="refs/tags/android-4.2.2_r1"
+  <default revision="+/android-4.2.2_r1"
            remote="aosp"
            sync-j="4" />
 
