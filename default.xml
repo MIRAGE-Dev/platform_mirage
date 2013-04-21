@@ -358,7 +358,7 @@
   <project path="platform_manifest" name="platform_manifest_slim" remote="ow" revision="jb4.2" />
 
   <!-- New Additions for slim -->
-  <project path="vendor/slim" name="vendor_mirage" remote="ow" revision="mirage" />
+  <project path="vendor/mirage" name="vendor_mirage" remote="ow" revision="mirage" />
   
   <!-- vendor for etc -->
   <project name="SlimRoms/proprietary_vendor_samsung" path="vendor/samsung" remote="github" revision="jb4.2" />
