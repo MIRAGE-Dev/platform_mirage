@@ -45,7 +45,6 @@
   <project name="device_samsung_tuna" path="device/samsung/tuna" remote="ow" revision="mirage" />
   <project name="SlimRoms/device_samsung_maguro" path="device/samsung/maguro" remote="github" revision="jb4.2" />
   <project name="SlimRoms/device_samsung_toro" path="device/samsung/toro" remote="github" revision="jb4.2" />
-  <project name="SlimRoms/device_samsung_crespo" path="device/samsung/crespo" remote="github" revision="jb4.2" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
   <project path="external/aac" name="platform/external/aac" />
   <project path="external/android-clat" name="platform/external/android-clat" />
