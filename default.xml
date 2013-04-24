@@ -356,7 +356,7 @@
   <project path="tools/build" name="platform/tools/build" groups="toolsbuild" />
   <project path="tools/motodev" name="platform/tools/motodev" />
 
-  <project path="platform_manifest" name="platform_manifest_slim" remote="ow" revision="jb4.2" />
+  <project path="platform_mirage" name="platform_mirage" remote="ow" revision="mirage" />
 
   <!-- New Additions for slim -->
   <project path="vendor/mirage" name="vendor_mirage" remote="ow" revision="mirage" />
