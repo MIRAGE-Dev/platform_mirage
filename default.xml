@@ -43,8 +43,8 @@
   <project path="device/generic/x86" name="device/generic/x86" />
   <project path="device/sample" name="device/sample" />
   <project name="device_samsung_tuna" path="device/samsung/tuna" remote="ow" revision="mirage" />
-  <project name="SlimRoms/device_samsung_maguro" path="device/samsung/maguro" remote="github" revision="jb4.2" />
-  <project name="SlimRoms/device_samsung_toro" path="device/samsung/toro" remote="github" revision="jb4.2" />
+  <project name="device_samsung_maguro" path="device/samsung/maguro" remote="ow" revision="mirage" />
+  <project name="device_samsung_toro" path="device/samsung/toro" remote="ow" revision="mirage" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
   <project path="external/aac" name="platform/external/aac" />
   <project path="external/android-clat" name="platform/external/android-clat" />
