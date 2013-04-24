@@ -11,6 +11,6 @@ Syncing the Mirage Source
 
     mkdir ~/slim
     cd ~/slim
-    repo init -u git://github.com/Open-Wise/platform_manifest_slim.git -b jb4.2
+    repo init -u git://github.com/Open-Wise/platform_mirage.git -b mirage
     repo sync -f -j12
 
