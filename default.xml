@@ -23,7 +23,8 @@
 
   <default revision="refs/tags/android-4.2.2_r1.1"
            remote="aosp"
-           sync-j="4" />
+           sync-c="true"
+           sync-j="8" />
 
   <project path="build" name="slim_build" remote="ow" revision="mirage" >
     <copyfile src="core/root.mk" dest="Makefile" />
