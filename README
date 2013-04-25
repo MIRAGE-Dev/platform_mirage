@@ -9,8 +9,8 @@ Setting Repo
 Syncing the Mirage Source
 ＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊
 
-    mkdir ~/slim
-    cd ~/slim
+    mkdir ~/mirage
+    cd ~/mirage
     repo init -u git://github.com/Open-Wise/platform_mirage.git -b mirage
     repo sync -f -j12
 
