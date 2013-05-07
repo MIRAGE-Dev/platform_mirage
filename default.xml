@@ -11,7 +11,7 @@
   <remote name="ow"
            fetch="git://github.com/Open-Wise/" />
            
-  <remote name="sm"
+  <remote name="slim"
            fetch="git://github.com/SlimRoms/"
            review="https://review.slimroms.net:8443/" />
            
