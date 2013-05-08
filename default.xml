@@ -258,7 +258,7 @@
   <project path="hardware/ti/omap4xxx" name="hardware_ti_omap4xxx" remote="slim" revision="jb4.2" />
   <project path="hardware/ti/wlan" name="hardware_ti_wlan" remote="slim" revision="jb4.2" />
   <project path="hardware/ti/wpan" name="hardware_ti_wpan" remote="slim" revision="jb4.2" />
-  <project path="libcore" name="platform_libcore" remote="github" revision="jb4.2" />
+  <project path="libcore" name="platform_libcore" remote="slim" revision="jb4.2" />
   <project path="libnativehelper" name="platform/libnativehelper" />
   <project path="kernel/samsung/tuna" name="anarkia1976/AK-tuna" remote="github" revision="ak-4.2.2-official-mainline" />
   <project path="kernel/samsung/crespo" name="bedalus/marmite" remote="github" revision="Slim_Bean4" />
