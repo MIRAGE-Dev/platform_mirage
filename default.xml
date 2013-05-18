@@ -24,7 +24,7 @@
   <remote name="xy"
            fetch="git://github.com/XYAOSP/" />
 
-  <default revision="refs/tags/android-4.2.2_r1.1"
+  <default revision="refs/tags/android-4.2.2_r1.2"
            remote="aosp"
            sync-c="true"
            sync-j="8" />
@@ -237,23 +237,23 @@
   <project path="frameworks/wilhelm" name="android_frameworks_wilhelm" remote="cmdev" revision="cm-10.1-linaro" />
   <project path="gdk" name="platform/gdk" />
   <project path="hardware/broadcom/wlan" name="hardware_broadcom_wlan" remote="slim" revision="jb4.2" />
-  <project path="hardware/invensense" name="platform/hardware/invensense" revision="refs/tags/android-4.2.1_r1.2" /> 
+  <project path="hardware/invensense" name="platform/hardware/invensense" /> 
   <project path="hardware/libhardware" name="hardware_libhardware" remote="slim" revision="jb4.2" />
   <project path="hardware/libhardware_legacy" name="hardware_libhardware_legacy" remote="slim" revision="jb4.2" />
   <project path="hardware/msm7k" name="hardware_msm7k" remote="slim" revision="jb4.2" />
   <project path="hardware/qcom/audio" name="hardware_qcom_audio" remote="slim" revision="jb4.2" />
   <project path="hardware/qcom/bt" name="hardware_qcom_bt" remote="slim" revision="jb4.2" />
-  <project path="hardware/qcom/camera" name="platform/hardware/qcom/camera" revision="refs/tags/android-4.2.1_r1.2" />
+  <project path="hardware/qcom/camera" name="hardware_qcom_camera" remote="slim" revision="jb4.2" />
   <project path="hardware/qcom/display" name="hardware_qcom_display" remote="slim" revision="jb4.2" />
   <project path="hardware/qcom/gps" name="hardware_qcom_gps" remote="slim" revision="jb4.2" />
-  <project path="hardware/qcom/keymaster" name="platform/hardware/qcom/keymaster" revision="refs/tags/android-4.2.1_r1.2" />
+  <project path="hardware/qcom/keymaster" name="platform/hardware/qcom/keymaster" />
   <project path="hardware/qcom/media" name="hardware_qcom_media" remote="slim" revision="jb4.2" />
-  <project path="hardware/qcom/msm8960" name="platform/hardware/qcom/msm8960" revision="refs/tags/android-4.2.1_r1.2" />
+  <project path="hardware/qcom/msm8960" name="platform/hardware/qcom/msm8960" />
   <project path="hardware/qcom/power" name="hardware_qcom_power" remote="slim" revision="jb4.2" />
-  <project path="hardware/qcom/sensors" name="platform/hardware/qcom/sensors" revision="refs/tags/android-4.2.1_r1.2" />
-  <project path="hardware/qcom/wlan" name="platform/hardware/qcom/wlan" revision="refs/tags/android-4.2.1_r1.2" />
+  <project path="hardware/qcom/sensors" name="platform/hardware/qcom/sensors" />
+  <project path="hardware/qcom/wlan" name="platform/hardware/qcom/wlan" />
   <project path="hardware/ril" name="hardware_ril" remote="slim" revision="jb4.2" />
-  <project path="hardware/samsung_slsi/exynos5" name="platform/hardware/samsung_slsi/exynos5" revision="refs/tags/android-4.2.1_r1.2" />
+  <project path="hardware/samsung_slsi/exynos5" name="platform/hardware/samsung_slsi/exynos5" />
   <project path="hardware/ti/omap3" name="hardware_ti_omap3" remote="slim" revision="jb4.2" />
   <project path="hardware/ti/omap4xxx" name="hardware_ti_omap4xxx" remote="slim" revision="jb4.2" />
   <project path="hardware/ti/wlan" name="hardware_ti_wlan" remote="slim" revision="jb4.2" />
