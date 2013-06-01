@@ -1,5 +1,8 @@
+MIRAGE
+======
+
 Setting Repo
-＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊
+------------
 
     mkdir ~/bin
     export PATH=~/bin:$PATH
@@ -7,7 +10,7 @@ Setting Repo
     chmod a+x ~/bin/repo
 
 Syncing the Mirage Source
-＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊
+-------------------------
 
     mkdir ~/mirage
     cd ~/mirage
@@ -15,7 +18,7 @@ Syncing the Mirage Source
     repo sync -f -j12
     
 Building MIRAGE Easier
-＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊
+----------------------
 
     . make.sh maguro sync 12 clean
     
