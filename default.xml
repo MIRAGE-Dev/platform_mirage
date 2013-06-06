@@ -49,9 +49,10 @@
   <project path="device/generic/mips" name="device/generic/mips" />
   <project path="device/generic/x86" name="device/generic/x86" />
   <project path="device/sample" name="device/sample" />
-  <project name="device_samsung_tuna" path="device/samsung/tuna" remote="ow" revision="mirage" />
   <project path="device/samsung/maguro" name="device_samsung_maguro" remote="ow" revision="mirage" />
+  <project path="device/samsung/mako" name="device_samsung_mako" remote="ow" revision="mirage" />
   <project path="device/samsung/toro" name="device_samsung_toro" remote="ow" revision="mirage" />
+  <project name="device_samsung_tuna" path="device/samsung/tuna" remote="ow" revision="mirage" />
   <project path="device/samsung/crespo" name="device_samsung_crespo" remote="ow" revision="mirage" /> 
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
   <project path="external/aac" name="platform/external/aac" />
