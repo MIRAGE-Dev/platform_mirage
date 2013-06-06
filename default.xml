@@ -50,7 +50,7 @@
   <project path="device/generic/x86" name="device/generic/x86" />
   <project path="device/sample" name="device/sample" />
   <project path="device/samsung/maguro" name="device_samsung_maguro" remote="ow" revision="mirage" />
-  <project path="device/samsung/mako" name="device_samsung_mako" remote="ow" revision="mirage" />
+  <project path="device/lge/mako" name="device_lhr_mako" remote="ow" revision="mirage" />
   <project path="device/samsung/toro" name="device_samsung_toro" remote="ow" revision="mirage" />
   <project name="device_samsung_tuna" path="device/samsung/tuna" remote="ow" revision="mirage" />
   <project path="device/samsung/crespo" name="device_samsung_crespo" remote="ow" revision="mirage" /> 
@@ -264,6 +264,7 @@
   <project path="hardware/ti/wpan" name="hardware_ti_wpan" remote="slim" revision="jb4.2" />
   <project path="libcore" name="platform_libcore" remote="slim" revision="jb4.2" />
   <project path="libnativehelper" name="platform/libnativehelper" />
+  <project path="kernel/lge/mako" name="kernel_lge_mako" remote="slim" revision="jb4.2" />
   <project path="kernel/samsung/tuna" name="leanKernel-galaxy-nexus" remote="ow" revision="franco" />
   <project path="kernel/samsung/crespo" name="bedalus/marmite" remote="github" revision="Slim_Bean4" />
   <project path="ndk" name="platform/ndk" />
