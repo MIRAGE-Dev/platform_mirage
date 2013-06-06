@@ -50,7 +50,7 @@
   <project path="device/generic/x86" name="device/generic/x86" />
   <project path="device/sample" name="device/sample" />
   <project path="device/samsung/maguro" name="device_samsung_maguro" remote="ow" revision="mirage" />
-  <project path="device/lge/mako" name="device_lhr_mako" remote="ow" revision="mirage" />
+  <project path="device/lge/mako" name="device_lge_mako" remote="ow" revision="mirage" />
   <project path="device/samsung/toro" name="device_samsung_toro" remote="ow" revision="mirage" />
   <project name="device_samsung_tuna" path="device/samsung/tuna" remote="ow" revision="mirage" />
   <project path="device/samsung/crespo" name="device_samsung_crespo" remote="ow" revision="mirage" /> 
