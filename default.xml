@@ -6,26 +6,40 @@
            review="https://android-review.googlesource.com/" />
 
   <remote name="github"
-           fetch="git://github.com/" />
+           fetch="git://github.com/"
+           sync-c="true"
+           sync-j="8" />
 
   <remote name="ow"
-           fetch="git://github.com/Open-Wise/" />
+           fetch="git://github.com/Open-Wise/"
+           sync-c="true"
+           sync-j="16" />
            
   <remote name="slim"
            fetch="git://github.com/SlimRoms/"
-           review="https://review.slimroms.net:8443/" />
+           review="https://review.slimroms.net:8443/"
+           sync-c="true"
+           sync-j="8" />
            
   <remote name="cm"
-           fetch="git://github.com/CyanogenMod/" />
+           fetch="git://github.com/CyanogenMod/"
+           sync-c="true"
+           sync-j="16" />
            
   <remote name="cfx"
-           fetch="https://bitbucket.org/codefirex/" />
+           fetch="https://bitbucket.org/codefirex/"
+           sync-c="true"
+           sync-j="8" />
 
   <remote name="cmdev"
-           fetch="git://github.com/loosethisskin/" />
+           fetch="git://github.com/loosethisskin/"
+           sync-c="true"
+           sync-j="16" />
            
   <remote name="xy"
-           fetch="git://github.com/XYAOSP/" />
+           fetch="git://github.com/XYAOSP/"
+           sync-c="true"
+           sync-j="8" />
 
   <default revision="refs/tags/android-4.2.2_r1.2"
            remote="aosp"
@@ -36,7 +50,7 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" />
-  <project path="bionic" name="android_bionic" remote="ow" revision="mirage" />
+  <project path="bionic" name="VanirAOSP/platform_bionic" remote="github" revision="jb4.2" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
   <project path="bootable/recovery" name="bootable_recovery" remote="slim" revision="jb4.2" />
   <project path="dalvik" name="mirage_dalvik" remote="ow" revision="mirage" />
