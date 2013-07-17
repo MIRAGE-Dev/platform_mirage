@@ -7,43 +7,34 @@
 
   <remote name="github"
            fetch="git://github.com/"
-           sync-c="true"
            sync-j="16" />
 
   <remote name="ow"
            fetch="git://github.com/Open-Wise/"
-           sync-c="true"
            sync-j="16" />
            
   <remote name="slim"
            fetch="git://github.com/SlimRoms/"
-           review="https://review.slimroms.net:8443/"
-           sync-c="true"
-           sync-j="8" />
+           sync-j="16" />
            
   <remote name="cm"
            fetch="git://github.com/CyanogenMod/"
-           sync-c="true"
            sync-j="16" />
            
   <remote name="cfx"
            fetch="https://bitbucket.org/codefirex/"
-           sync-c="true"
            sync-j="16" />
 
   <remote name="cmdev"
            fetch="git://github.com/loosethisskin/"
-           sync-c="true"
            sync-j="16" />
            
   <remote name="xy"
            fetch="git://github.com/XYAOSP/"
-           sync-c="true"
            sync-j="16" />
 
   <default revision="refs/tags/android-4.2.2_r1.2"
            remote="aosp"
-           sync-c="true"
            sync-j="16" />
 
   <project path="build" name="android_build" remote="ow" revision="mirage" >
@@ -286,7 +277,7 @@
   <project path="packages/apps/Apollo" name="android_packages_apps_Apollo" remote="cm" revision="cm-10.1" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
   <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="slim" revision="jb4.2" />
-  <project path="packages/apps/Browser" name="packages_apps_Browser" remote="slim" revision="jb4.2" />
+  <project path="packages/apps/Browser" name="packages_apps_Browser" remote="ow" revision="mirage" />
   <project path="packages/apps/Calculator" name="packages_apps_Calculator" remote="slim" revision="jb4.2" />
   <project path="packages/apps/Calendar" name="packages_apps_Calendar" remote="slim" revision="jb4.2" />
   <project path="packages/apps/Camera" name="packages_apps_Camera" remote="ow" revision="mirage" />
