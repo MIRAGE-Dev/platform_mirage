@@ -306,7 +306,7 @@
   <project path="packages/apps/MusicFX" name="packages_apps_MusicFX" remote="slim" revision="jb4.2" />
   <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="slim" revision="jb4.2" />
   <project path="packages/apps/PackageInstaller" name="VanirAOSP/platform_packages_apps_PackageInstaller" remote="github" revision="jb42" />
-  <project path="packages/apps/Phone" name="packages_apps_Phone" remote="slim" revision="jb4.2" />
+  <project path="packages/apps/Phone" name="packages_apps_Phone" remote="ow" revision="mirage" />
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
   <project path="packages/apps/Provision" name="packages_apps_Provision" remote="slim" revision="jb4.2" /> 
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" />
