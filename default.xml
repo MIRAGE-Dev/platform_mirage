@@ -297,6 +297,7 @@
   <project path="packages/apps/Email" name="packages_apps_Email" remote="slim" revision="jb4.2" />
   <project path="packages/apps/Exchange" name="packages_apps_Exchange" remote="slim" revision="jb4.2" />
   <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" />
+  <project path="packages/apps/Halo" name="packages_apps_HALO" remote="ow" revision="mirage" />
   <project path="packages/apps/Gallery2" name="packages_apps_Gallery2" remote="slim" revision="jb4.2" />
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" />
