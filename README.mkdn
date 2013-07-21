@@ -20,6 +20,8 @@ Syncing the Mirage Source
 Building MIRAGE Easier
 ----------------------
 
+    sudo apt-get install lzop
+
     . make.sh maguro sync 12 clean
     
     if you don't want to sync
