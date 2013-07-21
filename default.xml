@@ -408,7 +408,6 @@
 
   <!-- Slim toolchain gcc and linaro -->
   <project path="prebuilt" name="android_prebuilt" remote="slim" revision="jb4.2" />
-  <project path="linaro" name="UltimatumKang/android_prebuilts_gcc_linux-x86_arm_linaro-4.8" remote="github" revision="master" />
 
   <!-- New Additions theme engine CM -->
   <project path="vendor/tmobile/apps/ThemeChooser" name="TeamBAKED/vendor_tmobile_apps_ThemeChooser" remote="github" revision="jb-4.2"/>
