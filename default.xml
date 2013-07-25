@@ -40,33 +40,33 @@
            sync-c="true"
            sync-j="16" />
 
-  <default revision="refs/tags/android-4.2.2_r1.2"
+  <default revision="refs/tags/android-4.3_r2.1"
           sync-c="true" 
            remote="aosp"
            sync-j="16" />
 
-  <project path="build" name="android_build" remote="ow" revision="mirage" >
+  <project path="build" name="android_build" remote="ow" revision="m4.3" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" />
-  <project path="bionic" name="android_bionic" remote="slim" revision="jb4.2" />
+  <project path="bionic" name="android_bionic" remote="slim" revision="jb4.3" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
-  <project path="bootable/recovery" name="bootable_recovery" remote="slim" revision="jb4.2" />
+  <project path="bootable/recovery" name="bootable_recovery" remote="slim" revision="jb4.3" />
   <project path="dalvik" name="mirage_dalvik" remote="ow" revision="mirage" />
-  <project path="development" name="android_development" remote="slim" revision="jb4.2" />
-  <project path="device/common" name="device_common" remote="slim" revision="jb4.2" />
-  <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" />
+  <project path="development" name="android_development" remote="slim" revision="jb4.3" />
+  <project path="device/common" name="device_common" remote="slim" revision="jb4.3" />
+  <project path="device/generic/armv7-a" name="device/generic/armv7-a" revision="jb-mr1.1-release" />
   <project path="device/generic/armv7-a" name="device/generic/armv7-a" />
   <project path="device/generic/common" name="device/generic/common" />
   <project path="device/generic/goldfish" name="device/generic/goldfish" />
   <project path="device/generic/mips" name="device/generic/mips" />
   <project path="device/generic/x86" name="device/generic/x86" />
   <project path="device/sample" name="device/sample" />
-  <project path="device/samsung/maguro" name="device_samsung_maguro" remote="ow" revision="mirage" />
-  <project path="device/lge/mako" name="device_lge_mako" remote="ow" revision="mirage" />
-  <project path="device/samsung/toro" name="device_samsung_toro" remote="ow" revision="mirage" />
-  <project name="device_samsung_tuna" path="device/samsung/tuna" remote="ow" revision="mirage" />
-  <project path="device/samsung/crespo" name="device_samsung_crespo" remote="ow" revision="mirage" /> 
+  <project path="device/samsung/maguro" name="device_samsung_maguro" remote="ow" revision="m4.3" />
+  <project path="device/lge/mako" name="device_lge_mako" remote="ow" revision="m4.3" />
+  <project path="device/samsung/toro" name="device_samsung_toro" remote="ow" revision="m4.3" />
+  <project name="device_samsung_tuna" path="device/samsung/tuna" remote="ow" revision="m4.3" />
+  <project path="device/samsung/crespo" name="device_samsung_crespo" remote="ow" revision="m4.3" /> 
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
   <project path="external/aac" name="platform/external/aac" />
   <project path="external/android-clat" name="platform/external/android-clat" />
@@ -78,22 +78,22 @@
   <project path="external/apache-qp" name="platform/external/apache-qp" />
   <project path="external/apache-xml" name="platform/external/apache-xml" />
   <project path="external/arduino" name="platform/external/arduino" />
-  <project path="external/astl" name="platform/external/astl" />
-  <project path="external/bash" name="android_external_bash" remote="slim" revision="jb4.2" />
+  <project path="external/astl" name="platform/external/astl" revision="jb-mr1.1-release" />
+  <project path="external/bash" name="android_external_bash" remote="slim" revision="jb4.3" />
   <project path="external/bison" name="platform/external/bison" />
   <project path="external/blktrace" name="platform/external/blktrace" />
-  <project path="external/bluetooth/bluedroid" name="external_bluetooth_bluedroid" remote="ow" revision="mirage" />
+  <project path="external/bluetooth/bluedroid" name="external_bluetooth_bluedroid" remote="ow" revision="m4.3" />
   <project path="external/bouncycastle" name="platform/external/bouncycastle" />
   <project path="external/bsdiff" name="platform/external/bsdiff" />
-  <project path="external/busybox" name="android_external_busybox" remote="ow" revision="mirage" />
+  <project path="external/busybox" name="android_external_busybox" remote="ow" revision="m4.3" />
   <project path="external/bzip2" name="platform/external/bzip2" />
   <project path="external/checkpolicy" name="platform/external/checkpolicy" />
   <project path="external/chromium" name="android_external_chromium" remote="cmdev" revision="cm-10.1-linaro" />
   <project path="external/chromium-trace" name="platform/external/chromium-trace" />
-  <project path="external/cibu-fonts" name="platform/external/cibu-fonts" />
-  <project path="external/clang" name="android_external_clang" remote="slim" revision="jb4.2"  />
-  <project path="external/compiler-rt" name="android_external_compiler-rt" remote="cm" revision="cm-10.1" />
-  <project path="external/dbus" name="platform/external/dbus" />
+  <project path="external/cibu-fonts" name="platform/external/cibu-fonts" revision="jb-mr1.1-release" />
+  <project path="external/clang" name="android_external_clang" remote="slim" revision="jb4.3"  />
+  <project path="external/compiler-rt" name="android_external_compiler-rt" remote="cm" revision="cm-10.2" />
+  <project path="external/dbus" name="platform/external/dbus" revision="jb-mr1.1-release" />
   <project path="external/dexmaker" name="platform/external/dexmaker" />
   <project path="external/dhcpcd" name="platform/external/dhcpcd" />
   <project path="external/dnsmasq" name="android_external_dnsmasq" remote="cmdev" revision="cm-10.1-linaro" />
@@ -103,20 +103,21 @@
   <project path="external/easymock" name="platform/external/easymock" />
   <project path="external/eclipse-basebuilder" name="platform/external/eclipse-basebuilder" />
   <project path="external/eclipse-windowbuilder" name="platform/external/eclipse-windowbuilder" />
+  <project path="external/eigen" name="platform/external/eigen" />
   <project path="external/elfutils" name="android_external_elfutils" remote="cmdev" revision="cm-10.1-linaro" />
   <project path="external/embunit" name="android_external_embunit" remote="cmdev" revision="cm-10.1-linaro" />
   <project path="external/emma" name="platform/external/emma" />
   <project path="external/esd" name="platform/external/esd" />
   <project path="external/expat" name="platform/external/expat" />
   <project path="external/eyes-free" name="platform/external/eyes-free" />
-  <project path="external/fat32lib" name="platform/external/fat32lib" />
+  <project path="external/fat32lib" name="platform/external/fat32lib" revision="jb-mr1.1-release" />
   <project path="external/fdlibm" name="platform/external/fdlibm" />
   <project path="external/flac" name="platform/external/flac" />
   <project path="external/freetype" name="android_external_freetype" remote="cmdev" revision="cm-10.1-linaro" />
   <project path="external/fsck_msdos" name="platform/external/fsck_msdos" />
   <project path="external/ganymed-ssh2" name="platform/external/ganymed-ssh2" />
   <project path="external/gcc-demangle" name="platform/external/gcc-demangle" />
-  <project path="external/genext2fs" name="android_external_genext2fs" remote="slim" revision="jb4.2" />
+  <project path="external/genext2fs" name="android_external_genext2fs" remote="slim" revision="jb4.3" />
   <project path="external/giflib" name="platform/external/giflib" />
   <project path="external/google-diff-match-patch" name="platform/external/google-diff-match-patch" />
   <project path="external/grub" name="platform/external/grub" />
@@ -124,19 +125,20 @@
   <project path="external/guava" name="platform/external/guava" />
   <project path="external/hamcrest" name="platform/external/hamcrest" />
   <project path="external/harfbuzz" name="platform/external/harfbuzz" />
+  <project path="external/harfbuzz_ng" name="platform/external/harfbuzz_ng" />
   <project path="external/hyphenation" name="platform/external/hyphenation" />
   <project path="external/icu4c" name="platform/external/icu4c" />
   <project path="external/iproute2" name="platform/external/iproute2" />
   <project path="external/ipsec-tools" name="platform/external/ipsec-tools" />
   <project path="external/iptables" name="platform/external/iptables" />
   <project path="external/jack" name="platform/external/jack" />
-  <project path="external/javasqlite" name="android_external_javasqlite" remote="cm" revision="cm-10.1" />
+  <project path="external/javasqlite" name="android_external_javasqlite" remote="cm" revision="cm-10.2" />
   <project path="external/javassist" name="platform/external/javassist" />
   <project path="external/jdiff" name="platform/external/jdiff" />
   <project path="external/jhead" name="platform/external/jhead" />
   <project path="external/jmdns" name="platform/external/jmdns" />
   <project path="external/jmonkeyengine" name="platform/external/jmonkeyengine" />
-  <project path="external/jpeg" name="android_external_jpeg" remote="cm" revision="cm-10.1" />
+  <project path="external/jpeg" name="android_external_jpeg" remote="cm" revision="cm-10.2" />
   <project path="external/jsilver" name="platform/external/jsilver" />
   <project path="external/jsr305" name="platform/external/jsr305" />
   <project path="external/junit" name="platform/external/junit" />
@@ -146,18 +148,19 @@
   <project path="external/libgsm" name="platform/external/libgsm" />
   <project path="external/liblzf" name="platform/external/liblzf" />
   <project path="external/libmtp" name="platform/external/libmtp" />
-  <project path="external/libncurses" name="android_external_libncurses" remote="slim" revision="jb4.2" />
-  <project path="external/libnfc-nci" name="android_external_libnfc-nci" remote="slim" revision="jb4.2" />
-  <project path="external/libnfc-nxp" name="android_external_libnfc-nxp" remote="cm" revision="cm-10.1" />
+  <project path="external/libncurses" name="android_external_libncurses" remote="slim" revision="jb4.3" />
+  <project path="external/libnfc-nci" name="android_external_libnfc-nci" remote="slim" revision="jb4.3" />
+  <project path="external/libnfc-nxp" name="android_external_libnfc-nxp" remote="cm" revision="cm-10.2" />
   <project path="external/libnl-headers" name="platform/external/libnl-headers" />
   <project path="external/libogg" name="platform/external/libogg" />
   <project path="external/libpcap" name="platform/external/libpcap" />
   <project path="external/libphonenumber" name="platform/external/libphonenumber" />
-  <project path="external/libpng" name="android_external_libpng" remote="cm" revision="cm-10.1" />
+  <project path="external/libpng" name="android_external_libpng" remote="cm" revision="cm-10.2" />
   <project path="external/libppp" name="platform/external/libppp" />
   <project path="external/libselinux" name="platform/external/libselinux" />
   <project path="external/libsepol" name="platform/external/libsepol" />
   <project path="external/libusb" name="platform/external/libusb" />
+  <project path="external/libusb_aah" name="platform/external/libusb_aah" groups="libusb_aah" />
   <project path="external/libusb-compat" name="platform/external/libusb-compat" />
   <project path="external/libvorbis" name="platform/external/libvorbis" />
   <project path="external/libvpx" name="platform/external/libvpx" />
@@ -166,8 +169,8 @@
   <project path="external/libyuv" name="platform/external/libyuv" />
   <project path="external/linux-tools-perf" name="platform/external/linux-tools-perf" />
   <project path="external/littlemock" name="platform/external/littlemock" />
-  <project path="external/llvm" name="VanirAOSP/external_llvm" remote="github" revision="jb42" />
-  <project path="external/lohit-fonts" name="platform/external/lohit-fonts" />
+  <project path="external/llvm" name="VanirAOSP/external_llvm" remote="github" revision="jb43" />
+  <project path="external/lohit-fonts" name="platform/external/lohit-fonts" revision="jb-mr1.1-release" />
   <project path="external/markdown" name="platform/external/markdown" />
   <project path="external/mdnsresponder" name="platform/external/mdnsresponder" />
   <project path="external/mesa3d" name="android_external_mesa3d" remote="cmdev" revision="cm-10.1-linaro" />
@@ -179,14 +182,18 @@
   <project path="external/netcat" name="platform/external/netcat" />
   <project path="external/netperf" name="platform/external/netperf" />
   <project path="external/neven" name="platform/external/neven" />
+  <project path="external/nist-pkits" name="platform/external/nist-pkits" />
   <project path="external/nist-sip" name="platform/external/nist-sip" />
+  <project path="external/noto-fonts" name="platform/external/noto-fonts" />
   <project path="external/oauth" name="platform/external/oauth" />
+  <project path="external/objenesis" name="platform/external/objenesis" />
   <project path="external/okhttp" name="platform/external/okhttp" />
+  <project path="external/open-vcdiff" name="platform/external/open-vcdiff" />
   <project path="external/opencv" name="platform/external/opencv" />
   <project path="external/openfst" name="platform/external/openfst" />
   <project path="external/openssh" name="android_external_openssh" remote="cmdev" revision="cm-10.1-linaro" />
   <project path="external/openssl" name="android_external_openssl" remote="cmdev" revision="cm-10.1-linaro" />
-  <project path="external/oprofile" name="android_external_oprofile" remote="ow" revision="mirage" />
+  <project path="external/oprofile" name="android_external_oprofile" remote="ow" revision="m4.3" />
   <project path="external/ping" name="android_external_ping" remote="cmdev" revision="cm-10.1-linaro" />
   <project path="external/ping6" name="android_external_ping6" remote="cmdev" revision="cm-10.1-linaro" />
   <project path="external/ppp" name="platform/external/ppp" />
@@ -199,12 +206,13 @@
   <project path="external/replicaisland" name="platform/external/replicaisland" />
   <project path="external/safe-iop" name="platform/external/safe-iop" />
   <project path="external/sepolicy" name="platform/external/sepolicy" />
-  <project path="external/skia" name="android_external_skia" remote="slim" revision="jb4.2" />
+  <project path="external/skia" name="android_external_skia" remote="slim" revision="jb4.3" />
+  <project path="external/smack" name="platform/external/smack" />
   <project path="external/smali" name="platform/external/smali" />
   <project path="external/sonivox" name="platform/external/sonivox" />
   <project path="external/speex" name="platform/external/speex" />
   <project path="external/sqlite" name="platform/external/sqlite" />
-  <project path="external/srec" name="android_external_srec" remote="slim" revision="jb4.2" /> 
+  <project path="external/srec" name="android_external_srec" remote="slim" revision="jb4.3" /> 
   <project path="external/srtp" name="platform/external/srtp" />
   <project path="external/stlport" name="android_external_stlport" remote="cmdev" revision="cm-10.1-linaro" />
   <project path="external/strace" name="platform/external/strace" />
@@ -215,124 +223,131 @@
   <project path="external/tinyalsa" name="platform/external/tinyalsa" />
   <project path="external/tinyxml" name="platform/external/tinyxml" />
   <project path="external/tinyxml2" name="platform/external/tinyxml2" />
-  <project path="external/tremolo" name="platform/external/tremolo" />
+  <project path="external/tremolo" name="platform/external/tremolo" groups="pdk" />
   <project path="external/v8" name="android_external_v8" remote="cmdev" revision="cm-10.1-linaro" />
   <project path="external/valgrind" name="platform/external/valgrind" />
-  <project path="external/webkit" name="android_external_webkit" remote="ow" revision="mirage" />
+  <project path="external/webkit" name="android_external_webkit" remote="ow" revision="m4.3" />
   <project path="external/webp" name="platform/external/webp" />
   <project path="external/webrtc" name="platform/external/webrtc" />
-  <project path="external/wpa_supplicant_6" name="android_external_wpa_supplicant_6" remote="slim" revision="jb4.2" />
-  <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" remote="slim" revision="jb4.2" />
+  <project path="external/wpa_supplicant_6" name="android_external_wpa_supplicant_6" remote="slim" revision="jb4.3" />
+  <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" remote="slim" revision="jb4.3" />
   <project path="external/xmlwriter" name="platform/external/xmlwriter" />
   <project path="external/xmp_toolkit" name="platform/external/xmp_toolkit" />
-  <project path="external/yaffs2" name="android_external_yaffs2" remote="slim" revision="jb4.2" />
-  <project path="external/zlib" name="android_external_zlib" remote="slim" revision="jb4.2" />
+  <project path="external/yaffs2" name="android_external_yaffs2" remote="slim" revision="jb4.3" />
+  <project path="external/zlib" name="android_external_zlib" remote="slim" revision="jb4.3" />
   <project path="external/zxing" name="platform/external/zxing" />
-  <project path="frameworks/av" name="frameworks_av" remote="slim" revision="jb4.2" />
-  <project path="frameworks/base" name="frameworks_base_slim" remote="ow" revision="mirage" />
+  <project path="frameworks/av" name="frameworks_av" remote="slim" revision="jb4.3" />
+  <project path="frameworks/base" name="frameworks_base_slim" remote="ow" revision="m4.3" />
   <project path="frameworks/compile/libbcc" name="android_frameworks_compile_libbcc" remote="cmdev" revision="cm-10.1-linaro" />
-  <project path="frameworks/compile/linkloader" name="platform/frameworks/compile/linkloader" />
-  <project path="frameworks/compile/llvm-ndk-cc" name="platform/frameworks/compile/llvm-ndk-cc" />
+  <project path="frameworks/compile/linkloader" name="platform/frameworks/compile/linkloader" revision="jb-mr1.1-release" />
+  <project path="frameworks/compile/llvm-ndk-cc" name="platform/frameworks/compile/llvm-ndk-cc" revision="jb-mr1.1-release" />
   <project path="frameworks/compile/mclinker" name="android_frameworks_compile_mclinker" remote="cmdev" revision="cm-10.1-linaro" />
   <project path="frameworks/compile/slang" name="android_frameworks_compile_slang" remote="cmdev" revision="cm-10.1-linaro" />
   <project path="frameworks/ex" name="platform/frameworks/ex" />
   <project path="frameworks/mff" name="platform/frameworks/mff" />
   <project path="frameworks/ml" name="platform/frameworks/ml" />
-  <project path="frameworks/native" name="frameworks_native" remote="ow" revision="mirage" />
+  <project path="frameworks/native" name="frameworks_native" remote="ow" revision="m4.3" />
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" />
   <project path="frameworks/opt/carddav" name="platform/frameworks/opt/carddav" />
+  <project path="frameworks/opt/colorpicker" name="platform/frameworks/opt/colorpicker" />
+  <project path="frameworks/opt/datetimepicker" name="platform/frameworks/opt/datetimepicker" />
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" />
   <project path="frameworks/opt/inputmethodcommon" name="platform/frameworks/opt/inputmethodcommon" />
   <project path="frameworks/opt/mailcommon" name="platform/frameworks/opt/mailcommon" />
   <project path="frameworks/opt/mms" name="platform/frameworks/opt/mms" />
+  <project path="frameworks/opt/net/voip" name="platform/frameworks/opt/net/voip" />
   <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" />
-  <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="slim" revision="jb4.2" />
-  <project path="frameworks/opt/vcard" name="android_frameworks_opt_vcard" remote="slim" revision="jb4.2" />
-  <project path="frameworks/rs" name="android_frameworks_rs" remote="cmdev" revision="cm-10.1-linaro" />
+  <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="slim" revision="jb4.3" />
+  <project path="frameworks/opt/vcard" name="android_frameworks_opt_vcard" remote="slim" revision="jb4.3" />
+  <project path="frameworks/rs" name="platform/frameworks/rs" groups="pdk" />
   <project path="frameworks/support" name="android_frameworks_support" remote="cmdev" revision="cm-10.1-linaro" />
   <project path="frameworks/testing" name="platform/frameworks/testing" />
+  <project path="frameworks/volley" name="platform/frameworks/volley" />
+  <project path="frameworks/webview" name="platform/frameworks/webview" />
   <project path="frameworks/wilhelm" name="android_frameworks_wilhelm" remote="cmdev" revision="cm-10.1-linaro" />
-  <project path="gdk" name="platform/gdk" />
-  <project path="hardware/broadcom/wlan" name="hardware_broadcom_wlan" remote="slim" revision="jb4.2" />
+  <project path="gdk" name="platform/gdk" revision="jb-mr1.1-release" />
+  <project path="hardware/broadcom/wlan" name="hardware_broadcom_wlan" remote="slim" revision="jb4.3" />
   <project path="hardware/invensense" name="platform/hardware/invensense" /> 
-  <project path="hardware/libhardware" name="hardware_libhardware" remote="slim" revision="jb4.2" />
-  <project path="hardware/libhardware_legacy" name="hardware_libhardware_legacy" remote="slim" revision="jb4.2" />
-  <project path="hardware/msm7k" name="hardware_msm7k" remote="slim" revision="jb4.2" />
-  <project path="hardware/qcom/audio" name="hardware_qcom_audio" remote="slim" revision="jb4.2" />
-  <project path="hardware/qcom/bt" name="hardware_qcom_bt" remote="slim" revision="jb4.2" />
-  <project path="hardware/qcom/camera" name="hardware_qcom_camera" remote="slim" revision="jb4.2" />
-  <project path="hardware/qcom/display" name="CarbonDev/android_hardware_qcom_display" remote="github" revision="jb2" />
-  <project path="hardware/qcom/display-caf" name="CarbonDev/android_hardware_qcom_display-caf" remote="github" revision="jb2" />
-  <project path="hardware/qcom/gps" name="hardware_qcom_gps" remote="slim" revision="jb4.2" />
+  <project path="hardware/libhardware" name="hardware_libhardware" remote="slim" revision="jb4.3" />
+  <project path="hardware/libhardware_legacy" name="hardware_libhardware_legacy" remote="slim" revision="jb4.3" />
+  <project path="hardware/msm7k" name="hardware_msm7k" remote="slim" revision="jb4.3" />
+  <project path="hardware/qcom/audio" name="hardware_qcom_audio" remote="slim" revision="jb4.3" />
+  <project path="hardware/qcom/bt" name="hardware_qcom_bt" remote="slim" revision="jb4.3" />
+  <project path="hardware/qcom/camera" name="hardware_qcom_camera" remote="slim" revision="jb4.3" />
+  <project path="hardware/qcom/display" name="hardware_qcom_display" remote="slim" revision="jb4.3" />
+  <project path="hardware/qcom/gps" name="hardware_qcom_gps" remote="slim" revision="jb4.3" />
   <project path="hardware/qcom/keymaster" name="platform/hardware/qcom/keymaster" />
-  <project path="hardware/qcom/media" name="hardware_qcom_media" remote="slim" revision="jb4.2" />
+  <project path="hardware/qcom/media" name="hardware_qcom_media" remote="slim" revision="jb4.3" />
   <project path="hardware/qcom/msm8960" name="platform/hardware/qcom/msm8960" />
-  <project path="hardware/qcom/power" name="hardware_qcom_power" remote="slim" revision="jb4.2" />
+  <project path="hardware/qcom/power" name="hardware_qcom_power" remote="slim" revision="jb4.3" />
   <project path="hardware/qcom/sensors" name="platform/hardware/qcom/sensors" />
   <project path="hardware/qcom/wlan" name="platform/hardware/qcom/wlan" />
-  <project path="hardware/ril" name="hardware_ril" remote="slim" revision="jb4.2" />
+  <project path="hardware/ril" name="hardware_ril" remote="slim" revision="jb4.3" />
   <project path="hardware/samsung_slsi/exynos5" name="platform/hardware/samsung_slsi/exynos5" />
-  <project path="hardware/ti/omap3" name="hardware_ti_omap3" remote="slim" revision="jb4.2" />
-  <project path="hardware/ti/omap4xxx" name="hardware_ti_omap4xxx" remote="slim" revision="jb4.2" />
-  <project path="hardware/ti/wlan" name="hardware_ti_wlan" remote="slim" revision="jb4.2" />
-  <project path="hardware/ti/wpan" name="hardware_ti_wpan" remote="slim" revision="jb4.2" />
-  <project path="libcore" name="platform_libcore" remote="slim" revision="jb4.2" />
+  <project path="hardware/ti/omap3" name="hardware_ti_omap3" remote="slim" revision="jb4.3" />
+  <project path="hardware/ti/omap4xxx" name="hardware_ti_omap4xxx" remote="slim" revision="jb4.3" />
+  <project path="hardware/ti/wlan" name="hardware_ti_wlan" remote="slim" revision="jb4.3" />
+  <project path="hardware/ti/wpan" name="hardware_ti_wpan" remote="slim" revision="jb4.3" />
+  <project path="libcore" name="platform_libcore" remote="slim" revision="jb4.3" />
   <project path="libnativehelper" name="platform/libnativehelper" />
-  <project path="kernel/lge/mako" name="kernel_lge_mako" remote="slim" revision="jb4.2" />
-  <project path="kernel/samsung/tuna" name="kernel_samsung_tuna" remote="ow" revision="mirage" />
+  <project path="kernel/lge/mako" name="kernel_lge_mako" remote="slim" revision="jb4.3" />
+  <project path="kernel/samsung/tuna" name="kernel_samsung_tuna" remote="ow" revision="m4.3" />
   <project path="kernel/samsung/crespo" name="bedalus/marmite" remote="github" revision="marmite8.5" />
   <project path="ndk" name="platform/ndk" />
-  <project path="packages/apps/Apollo" name="android_packages_apps_Apollo" remote="cm" revision="cm-10.1" />
+  <project path="packages/apps/Apollo" name="android_packages_apps_Apollo" remote="cm" revision="cm-10.2" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
-  <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="slim" revision="jb4.2" />
-  <project path="packages/apps/Browser" name="packages_apps_Browser" remote="ow" revision="mirage" />
-  <project path="packages/apps/Calculator" name="packages_apps_Calculator" remote="slim" revision="jb4.2" />
-  <project path="packages/apps/Calendar" name="packages_apps_Calendar" remote="slim" revision="jb4.2" />
+  <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="slim" revision="jb4.3" />
+  <project path="packages/apps/Browser" name="packages_apps_Browser" remote="ow" revision="m4.3" />
+  <project path="packages/apps/Calculator" name="packages_apps_Calculator" remote="slim" revision="jb4.3" />
+  <project path="packages/apps/Calendar" name="packages_apps_Calendar" remote="slim" revision="jb4.3" />
   <project path="packages/apps/Camera" name="packages_apps_Camera" remote="ow" revision="mirage" />
   <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" />
-  <project path="packages/apps/Contacts" name="packages_apps_Contacts" remote="slim" revision="jb4.2" />
+  <project path="packages/apps/Contacts" name="packages_apps_Contacts" remote="slim" revision="jb4.3" />
   <project path="packages/apps/DSPManager" name="android_packages_apps_DSPManager" remote="xy" revision="jellybean" />
-  <project path="packages/apps/DeskClock" name="packages_apps_DeskClock" remote="slim" revision="jb4.2" />
+  <project path="packages/apps/DeskClock" name="packages_apps_DeskClock" remote="slim" revision="jb4.3" />
   <project path="packages/apps/Email" name="packages_apps_Email" remote="slim" revision="jb4.2" />
-  <project path="packages/apps/Exchange" name="packages_apps_Exchange" remote="slim" revision="jb4.2" />
+  <project path="packages/apps/Exchange" name="packages_apps_Exchange" remote="slim" revision="jb4.3" />
   <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" />
-  <project path="packages/apps/Halo" name="packages_apps_HALO" remote="ow" revision="mirage" />
-  <project path="packages/apps/Gallery2" name="packages_apps_Gallery2" remote="slim" revision="jb4.2" />
+  <project path="packages/apps/Halo" name="packages_apps_HALO" remote="ow" revision="m4.3" />
+  <project path="packages/apps/Gallery2" name="packages_apps_Gallery2" remote="slim" revision="jb4.3" />
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" />
   <project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" />
-  <project path="packages/apps/Mms" name="packages_apps_Mms" remote="slim" revision="jb4.2" />
+  <project path="packages/apps/Mms" name="packages_apps_Mms" remote="slim" revision="jb4.3" />
   <project path="packages/apps/Music" name="platform/packages/apps/Music" />
-  <project path="packages/apps/MusicFX" name="packages_apps_MusicFX" remote="slim" revision="jb4.2" />
-  <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="slim" revision="jb4.2" />
-  <project path="packages/apps/PackageInstaller" name="VanirAOSP/platform_packages_apps_PackageInstaller" remote="github" revision="jb42" />
-  <project path="packages/apps/Phone" name="packages_apps_Phone" remote="ow" revision="mirage" />
+  <project path="packages/apps/MusicFX" name="packages_apps_MusicFX" remote="slim" revision="jb4.3" />
+  <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="slim" revision="jb4.3" />
+  <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" />
+  <project path="packages/apps/PackageInstaller" name="VanirAOSP/platform_packages_apps_PackageInstaller" remote="github" revision="jb43" />
+  <project path="packages/apps/Phone" name="packages_apps_Phone" remote="slim" revision="jb4.3" />
+  <project path="packages/apps/PhoneCommon" name="platform/packages/apps/PhoneCommon" />
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
-  <project path="packages/apps/Provision" name="packages_apps_Provision" remote="slim" revision="jb4.2" /> 
+  <project path="packages/apps/Provision" name="packages_apps_Provision" remote="slim" revision="jb4.3" /> 
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="ow" revision="mirage" />
   <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" />
-  <project path="packages/apps/SoundRecorder" name="packages_apps_SoundRecorder" remote="slim" revision="jb4.2" />
+  <project path="packages/apps/SoundRecorder" name="packages_apps_SoundRecorder" remote="slim" revision="jb4.3" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" />
+  <project path="packages/apps/SpeechRecorder" name="platform/packages/apps/SpeechRecorder" />
   <project path="packages/apps/Stk" name="platform/packages/apps/Stk" />
   <project path="packages/apps/Tag" name="platform/packages/apps/Tag" />
   <project path="packages/apps/Trebuchet" name="packages_apps_Trebuchet" remote="xy" revision="jellybean" />
-  <project path="packages/apps/Torch" name="packages_apps_Torch" remote="slim" revision="jb4.2" />
+  <project path="packages/apps/Torch" name="packages_apps_Torch" remote="slim" revision="jb4.3" />
   <project path="packages/apps/VideoEditor" name="platform/packages/apps/VideoEditor" />
-  <project path="packages/apps/VoiceDialer" name="packages_apps_VoiceDialer" remote="slim" revision="jb4.2" />
+  <project path="packages/apps/VoiceDialer" name="packages_apps_VoiceDialer" remote="slim" revision="jb4.3" />
   <project path="packages/experimental" name="platform/packages/experimental" />
-  <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" remote="slim" revision="jb4.2" />
+  <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" remote="slim" revision="jb4.3" />
   <project path="packages/inputmethods/OpenWnn" name="platform/packages/inputmethods/OpenWnn" />
   <project path="packages/inputmethods/PinyinIME" name="platform/packages/inputmethods/PinyinIME" />
   <project path="packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider" />
   <project path="packages/providers/CalendarProvider" name="platform/packages/providers/CalendarProvider" />
-  <project path="packages/providers/ContactsProvider" name="packages_providers_ContactsProvider" remote="slim" revision="jb4.2" />
-  <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="slim" revision="jb4.2" />
+  <project path="packages/providers/ContactsProvider" name="packages_providers_ContactsProvider" remote="slim" revision="jb4.3" />
+  <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="slim" revision="jb4.3" />
   <project path="packages/providers/DrmProvider" name="platform/packages/providers/DrmProvider" />
-  <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="slim" revision="jb4.2" />
+  <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="slim" revision="jb4.3" />
   <project path="packages/providers/PartnerBookmarksProvider" name="platform/packages/providers/PartnerBookmarksProvider" />
-  <project path="packages/providers/TelephonyProvider" name="packages_providers_TelephonyProvider" remote="slim" revision="jb4.2" />
+  <project path="packages/providers/TelephonyProvider" name="packages_providers_TelephonyProvider" remote="slim" revision="jb4.3" />
   <project path="packages/providers/UserDictionaryProvider" name="platform/packages/providers/UserDictionaryProvider" />
   <project path="packages/screensavers/Basic" name="platform/packages/screensavers/Basic" />
   <project path="packages/screensavers/PhotoTable" name="platform/packages/screensavers/PhotoTable" />
@@ -346,68 +361,79 @@
   <project path="packages/wallpapers/NoiseField" name="platform/packages/wallpapers/NoiseField" />
   <project path="packages/wallpapers/PhaseBeam" name="platform/packages/wallpapers/PhaseBeam" />
   <project path="pdk" name="platform/pdk" />
-  <project path="prebuilts/clang/darwin-x86/3.1" name="platform/prebuilts/clang/darwin-x86/3.1" groups="darwin" />
-  <project path="prebuilts/clang/darwin-x86/3.2" name="platform/prebuilts/clang/darwin-x86/3.2" groups="darwin" />
-  <project path="prebuilts/clang/linux-x86/3.1" name="platform/prebuilts/clang/linux-x86/3.1" groups="linux" />
-  <project path="prebuilts/clang/linux-x86/3.2" name="platform/prebuilts/clang/linux-x86/3.2" groups="linux" />
-  <project path="prebuilts/eclipse" name="platform/prebuilts/eclipse" />
-  <project path="prebuilts/gcc/darwin-x86/arm/arm-eabi-4.6" name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.6" groups="darwin,arm" />
-  <project path="prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.6" name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.6" groups="darwin,arm" />
-  <project path="prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.6" name="platform/prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.6" groups="darwin,mips" />
-  <project path="prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.6" name="platform/prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.6" groups="darwin,x86" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" groups="linux,arm" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.6" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.6" groups="linux,arm" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" groups="linux,arm" revision="master" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" groups="linux,arm" revision="master" />
+  <project path="prebuilts/clang/darwin-x86/3.1" name="platform/prebuilts/clang/darwin-x86/3.1" groups="pdk,darwin" />
+  <project path="prebuilts/clang/darwin-x86/3.2" name="platform/prebuilts/clang/darwin-x86/3.2" groups="pdk,darwin" />
+  <project path="prebuilts/clang/linux-x86/3.1" name="platform/prebuilts/clang/linux-x86/3.1" groups="pdk,linux" />
+  <project path="prebuilts/clang/linux-x86/3.2" name="platform/prebuilts/clang/linux-x86/3.2" groups="pdk,linux" />
+  <project path="prebuilts/devtools" name="platform/prebuilts/devtools" />
+  <project path="prebuilts/eclipse" name="platform/prebuilts/eclipse" groups="pdk" />
+  <project path="prebuilts/eclipse-build-deps" name="platform/prebuilts/eclipse-build-deps" groups="notdefault,eclipse" />
+  <project path="prebuilts/eclipse-build-deps-sources" name="platform/prebuilts/eclipse-build-deps-sources" groups="notdefault,eclipse" />
+  <project path="prebuilts/gcc/darwin-x86/arm/arm-eabi-4.6" name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.6" groups="pdk,darwin,arm" />
+  <project path="prebuilts/gcc/darwin-x86/arm/arm-eabi-4.7" name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.7" groups="pdk,darwin,arm" />
+  <project path="prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.6" name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.6" groups="pdk,darwin,arm" />
+  <project path="prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.7" name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.7" groups="pdk,darwin,arm" />
+  <project path="prebuilts/gcc/darwin-x86/host/headers" name="platform/prebuilts/gcc/darwin-x86/host/headers" groups="pdk,darwin" />
+  <project path="prebuilts/gcc/darwin-x86/host/i686-apple-darwin-4.2.1" name="platform/prebuilts/gcc/darwin-x86/host/i686-apple-darwin-4.2.1" groups="pdk,darwin" />
+  <project path="prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.6" name="platform/prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.6" groups="pdk,darwin,mips" />
+  <project path="prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.7" name="platform/prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.7" groups="pdk,darwin,mips" />
+  <project path="prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.6" name="platform/prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.6" groups="pdk,darwin,x86" />
+  <project path="prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.7" name="platform/prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.7" groups="pdk,darwin,x86" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" groups="pdk,linux,arm" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" groups="pdk,linux,arm" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="prebuilts_gcc_linux-x86_arm_arm-eabi-4.8" remote="cfx" revision="jb-devel" /> 
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.8" remote="cfx" revision="jb-devel" />
-  <project path="prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.4.3" name="platform/prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.4.3" groups="linux" />
-  <project path="prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6" name="platform/prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6" groups="linux" />
-  <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.7-4.6" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.7-4.6" groups="linux" />
-  <project path="prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.6" name="platform/prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.6" groups="linux,mips" />
-  <project path="prebuilts/gcc/linux-x86/x86/i686-linux-android-4.6" name="platform/prebuilts/gcc/linux-x86/x86/i686-linux-android-4.6" groups="linux,x86" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.6" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.6" groups="pdk,linux,arm" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" groups="pdk,linux,arm" />
+    <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.8" remote="cfx" revision="jb-devel" />
+  <project path="prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.4.3" name="platform/prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.4.3" groups="pdk,linux" />
+  <project path="prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6" name="platform/prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6" groups="pdk,linux" />
+  <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.7-4.6" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.7-4.6" groups="pdk,linux" />
+  <project path="prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.6" name="platform/prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.6" groups="pdk,linux,mips" />
+  <project path="prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.7" name="platform/prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.7" groups="pdk,linux,mips" />
+  <project path="prebuilts/gcc/linux-x86/x86/i686-linux-android-4.6" name="platform/prebuilts/gcc/linux-x86/x86/i686-linux-android-4.6" groups="pdk,linux,x86" />
+  <project path="prebuilts/gcc/linux-x86/x86/i686-linux-android-4.7" name="platform/prebuilts/gcc/linux-x86/x86/i686-linux-android-4.7" groups="pdk,linux,x86" />
   <project path="prebuilts/misc" name="platform/prebuilts/misc" />
   <project path="prebuilts/ndk" name="platform/prebuilts/ndk" />
   <project path="prebuilts/qemu-kernel" name="platform/prebuilts/qemu-kernel" />
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" /> 
   <project path="prebuilts/tools" name="platform/prebuilts/tools" />
   <project path="sdk" name="platform/sdk" />
-  <project path="system/bluetooth" name="android_system_bluetooth" remote="slim" revision="jb4.2" />
-  <project path="system/core" name="android_system_core" remote="ow" revision="mirage" />
-  <project path="system/extras" name="android_system_extras" remote="slim" revision="jb4.2" />
+  <project path="system/bluetooth" name="android_system_bluetooth" remote="slim" revision="jb4.3" />
+  <project path="system/core" name="android_system_core" remote="ow" revision="m4.3" />
+  <project path="system/extras" name="android_system_extras" remote="slim" revision="jb4.3" />
   <project path="system/media" name="platform/system/media" />
-  <project path="system/netd" name="android_system_netd" remote="slim" revision="jb4.2" />
+  <project path="system/netd" name="android_system_netd" remote="slim" revision="jb4.3" />
   <project path="system/security" name="loosethisskin/android_system_security" remote="github" revision="cm-10.1-linaro" />
-  <project path="system/vold" name="android_system_vold" remote="slim" revision="jb4.2" />
+  <project path="system/vold" name="android_system_vold" remote="slim" revision="jb4.3" />
   <project path="tools/build" name="platform/tools/build" groups="toolsbuild" />
   <project path="tools/motodev" name="platform/tools/motodev" />
 
-  <project path="platform_mirage" name="platform_mirage" remote="ow" revision="mirage" />
+  <project path="platform_mirage" name="platform_mirage" remote="ow" revision="m4.3" />
 
   <!-- New Additions for slim -->
-  <project path="vendor/mirage" name="vendor_mirage" remote="ow" revision="mirage" />
+  <project path="vendor/mirage" name="vendor_mirage" remote="ow" revision="m4.3" />
   
   <!-- vendor for etc -->
-  <project path="vendor/samsung" name="proprietary_vendor_samsung" remote="slim" revision="jb4.2" />
-  <project path="vendor/imgtec" name="proprietary_vendor_imgtec" remote="slim" revision="jb4.2" />
-  <project path="vendor/invensense" name="proprietary_vendor_invensense" remote="slim" revision="jb4.2" />
-  <project path="vendor/broadcom" name="proprietary_vendor_broadcom" remote="slim" revision="jb4.2" />
-  <project path="vendor/nxp" name="proprietary_vendor_nxp" remote="slim" revision="jb4.2" />
-  <project path="vendor/widevine" name="proprietary_vendor_widevine" remote="slim" revision="jb4.2" />
-  <project path="vendor/akm" name="proprietary_vendor_akm" remote="slim" revision="jb4.2" />
+  <project path="vendor/samsung" name="proprietary_vendor_samsung" remote="slim" revision="jb4.3" />
+  <project path="vendor/imgtec" name="proprietary_vendor_imgtec" remote="slim" revision="jb4.3" />
+  <project path="vendor/invensense" name="proprietary_vendor_invensense" remote="slim" revision="jb4.3" />
+  <project path="vendor/broadcom" name="proprietary_vendor_broadcom" remote="slim" revision="jb4.3" />
+  <project path="vendor/nxp" name="proprietary_vendor_nxp" remote="slim" revision="jb4.3" />
+  <project path="vendor/widevine" name="proprietary_vendor_widevine" remote="slim" revision="jb4.3" />
+  <project path="vendor/akm" name="proprietary_vendor_akm" remote="slim" revision="jb4.3" />
 
   <!-- CM File Manager -->
-  <project path="packages/apps/CMFileManager" name="android_packages_apps_CMFileManager" remote="cm" revision="cm-10.1" />
+  <project path="packages/apps/CMFileManager" name="android_packages_apps_CMFileManager" remote="cm" revision="cm-10.2" />
 
   <!-- Koush Superuser -->
-  <project path="external/koush/Superuser" name="CyanogenMod/Superuser" remote="github" revision="cm-10.1" />
-  <project path="external/koush/Widgets" name="CyanogenMod/Widgets" remote="github" revision="cm-10.1" />
+  <project path="external/koush/Superuser" name="CyanogenMod/Superuser" remote="github" revision="cm-10.2" />
+  <project path="external/koush/Widgets" name="CyanogenMod/Widgets" remote="github" revision="cm-10.2" />
 
   <!-- DashClock widget -->
-  <project path="packages/apps/DashClock" name="packages_apps_DashClock" remote="slim" revision="jb4.2" />
+  <project path="packages/apps/DashClock" name="packages_apps_DashClock" remote="slim" revision="jb4.3" />
 
   <!-- Slim toolchain gcc and linaro -->
-  <project path="prebuilt" name="android_prebuilt" remote="slim" revision="jb4.2" />
+  <project path="prebuilt" name="android_prebuilt" remote="slim" revision="jb4.3" />
 
   <!-- New Additions theme engine CM -->
   <project path="vendor/tmobile/apps/ThemeChooser" name="TeamBAKED/vendor_tmobile_apps_ThemeChooser" remote="github" revision="jb-4.2"/>
@@ -416,7 +442,7 @@
   <project path="vendor/tmobile/products/themes" name="TeamBAKED/vendor_tmobile_products_themes" remote="github" revision="jb-4.2" />
 
   <!-- Let's have some fun toys -->
-  <project path="useful" name="Useful-scripts" remote="ow" revision="mirage" >
+  <project path="useful" name="Useful-scripts" remote="ow" revision="m4.3" >
     <copyfile src="make.sh" dest="make.sh" />
   </project>
 
