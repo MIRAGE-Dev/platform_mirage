@@ -14,7 +14,7 @@ Syncing the Mirage Source
 
     mkdir ~/mirage
     cd ~/mirage
-    repo init -u git://github.com/Open-Wise/platform_mirage.git -b mirage
+    repo init -u git://github.com/Open-Wise/platform_mirage.git -b 4.3
     repo sync -f -j12
     
 Building MIRAGE Easier
