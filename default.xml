@@ -11,7 +11,7 @@
            sync-j="16" />
 
   <remote name="ow"
-           fetch="git://github.com/Open-Wise/"
+           fetch="git://github.com/MIRAGE-Dev/"
            sync-c="true"
            sync-j="16" />
            
